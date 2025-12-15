@@ -1,0 +1,15 @@
+# Qrayti Backend Configuration for microsoft/phi-2
+# Copy this content to a file named .env
+
+LOCAL_MODEL_NAME=microsoft/phi-2
+DEVICE=auto
+LOAD_IN_8BIT=False
+MAX_LENGTH=2048
+TEMPERATURE=0.7
+
+HOST=0.0.0.0
+PORT=8000
+DEBUG=True
+
+CORS_ORIGINS=http://localhost:5173,http://localhost:3000
+
